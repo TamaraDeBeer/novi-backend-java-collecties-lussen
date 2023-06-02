@@ -24,8 +24,7 @@ public class Main {
                 System.out.println("Type een cijfer in van 0 t/m 9");
                 int number = scanner.nextInt();
                 scanner.nextLine();
-
-                if(number < 10) {
+                if(number < 10 && number >= 0) {
                     String result = translator.translate(number);
                     System.out.println("De vertaling van " + number + " is " + result); }
                     else {

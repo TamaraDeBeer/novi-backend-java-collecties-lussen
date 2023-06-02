@@ -7,11 +7,12 @@ public class Translator {
 
 
 public Translator(String[] alphabetic, Integer[] numeric) {
-    for(int i = 0; i < alphabetic.length; i++); {
+    for(int i = 0; i < numeric.length; i++); {
         numericAlpha.put(numeric[1], alphabetic[1]);
     }
 }
     public String translate(Integer number) {
-        return numericAlpha.get(number);
+
+    return numericAlpha.get(number);
     }
 }
